@@ -258,7 +258,7 @@ label {{ color: {TEXT} !important; font-weight: 500; }}
 # ─────────────────────────────────────────────────────────────────────────────
 @st.cache_data
 def load_data():
-    return pd.read_excel("alzheimer_clean.xls")
+    return pd.read_csv("alzheimer_clean.csv")
 
 @st.cache_resource
 def train_models(df):
