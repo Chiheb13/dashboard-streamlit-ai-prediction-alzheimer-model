@@ -184,7 +184,7 @@ Each model was assessed using:
 
 ### Logistic Regression
 
-Logistic regression serves as the baseline model. It learns a set of linear coefficients, one per feature, and combines them to estimate class probabilities. Despite its simplicity, it achieved the highest accuracy on this dataset (70.6%), which suggests that a significant portion of the decision boundary is approximately linear in the feature space.
+Logistic regression serves as the baseline model. It learns a set of linear coefficients, one per feature, and combines them to estimate class probabilities. Despite its simplicity, it achieved the highest accuracy on this dataset (69.84%), which suggests that a significant portion of the decision boundary is approximately linear in the feature space.
 
 - Hyperparameter: `max_iter=1000`
 - Strength: highly interpretable, fast to train, reliable baseline
@@ -222,7 +222,7 @@ XGBoost implements gradient boosting, a sequential ensemble technique in which e
 
 | Rank | Model | Accuracy | AUC (macro) |
 |------|-------|----------|-------------|
-| 1 | Logistic Regression | 70.6% | 0.869 |
+| 1 | Logistic Regression | 69.84% | 0.869 |
 | 2 | Random Forest | 69.0% | 0.855 |
 | 3 | XGBoost | 68.3% | 0.886 |
 | 4 | Decision Tree | 67.5% | 0.847 |
